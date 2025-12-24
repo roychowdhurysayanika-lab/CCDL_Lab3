@@ -1,5 +1,8 @@
 # Configuration File v1.0
 [General]
 Project_Name = My_Service
-Version = 1.0.0
+Version = 1.0.1-stable
 Environment = DEFAULT
+[Prod_Settings]
+Logging_Level = INFO
+Database_URL = https://prod-db:5432
