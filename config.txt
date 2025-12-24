@@ -1,8 +1,11 @@
 # Configuration File v1.0
 [General]
 Project_Name = My_Service
-Version = 1.0.1-stable
+Version = 1.0.1-alpha
 Environment = DEFAULT
 [Prod_Settings]
 Logging_Level = INFO
 Database_URL = https://prod-db:5432
+[Dev_Settings]
+Logging_Level = TRACE
+Database_URL = http://localhost:8080
